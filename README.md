@@ -1,4 +1,4 @@
-#BBCode image
+# BBCode image
 
 This NodeBB plugin allows you to use BBCode in post to share image.
 
