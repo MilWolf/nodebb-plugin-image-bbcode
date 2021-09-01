@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-image-bbcode",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "NodeBB plugin which allows you to use BBCode to share image.",
   "main": "library.js",
   "repository": {

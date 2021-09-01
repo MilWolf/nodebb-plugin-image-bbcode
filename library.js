@@ -13,8 +13,12 @@ function replaceContent(data) {
             url = src2;
         });
 
-        url = url.split("%5B/img%5D").join("");
-        url = url.split("%5B/url%5D").join("");
+        if (url) {
+            url = url.split("%5B/img%5D").join("");
+            url = url.split("%5B/url%5D").join("");
+        } else {
+            url = "";
+        }
 
         return "<img src=\"" + url + "\"</img>";
     });
